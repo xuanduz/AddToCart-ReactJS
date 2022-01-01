@@ -1,0 +1,35 @@
+.products {
+  width: 100%;
+  display: flex;
+}
+
+.product {
+  flex: 1;
+  margin: 0 10px;
+  background-color: rgb(196, 196, 196);
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  background-color: #edb738;
+
+  border: 2px solid;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button:hover {
+  color: white;
+}

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.content {
+  width: 100%;
+
+  display: flex;
+}
+
+.left {
+  flex: 2;
+  height: 500px;
+  background-color: rgb(211, 211, 211);
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  min-height: 500px;
+  background-color: rgb(211, 211, 211);
+  border-radius: 15px;
+  padding: 20px;
+}
